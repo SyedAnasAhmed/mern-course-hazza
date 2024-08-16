@@ -1,0 +1,106 @@
+.form {
+    padding: 50px 100px;
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.custom{
+    z-index: 1000;
+}
+
+
+.custom2{
+    height:500px;   
+    object-fit:fill;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.divdes{
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family:'Roboto';
+  background-color: #131417;  
+}
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color :rgba(0, 196, 67, 0.8);
+}
+.second div {
+  background-color:#CD921E;
+}
+.third div {
+  background-color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+
+
+.flexbox :hover{
+    box-shadow: 1px 9px 31px 0px rgba(255, 255, 255, 0.8);
+-webkit-box-shadow: 1px 9px 31px 0px rgba(255, 255, 255, 0.8)   ;
+-moz-box-shadow: 1px 9px 31px 0px rgba(255, 255, 255, 0.8);
+}
